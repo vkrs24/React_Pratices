@@ -1,0 +1,49 @@
+body {
+  padding: 1vw;
+  margin: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+p {
+  margin: 0;
+}
+
+.Contaianer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 45rem;
+  justify-content: space-between;
+  padding: 1vh;
+}
+
+.Box_Component {
+  width: 30rem;
+  height: 30rem;
+  border: solid;
+  border-width: 3px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Box_Component div p {
+  font-size: 190%;
+  word-wrap: break-word;
+}
+
+.AddColorComponent div input {
+  font-size: 200%;
+  padding: 1vh;
+}
+
+.ToogleTextComponent div button {
+  font-size: 200%;
+  padding: 1vh;
+}
